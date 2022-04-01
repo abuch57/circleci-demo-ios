@@ -3,6 +3,7 @@ jobs:
   build-and-test:
     macos:
       xcode: 10.3.0
+    resource_class: macos.x86.medium.gen2
     working_directory: /Users/distiller/project
     environment:
       FL_OUTPUT_DIR: output
